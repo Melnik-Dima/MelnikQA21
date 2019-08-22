@@ -17,10 +17,7 @@ public class SearchWikiTest {
         driver.findElement(By.name("search")).clear();
         driver.findElement(By.name("search")).sendKeys("java");
         driver.findElement(By.name("go")).click();
-
-
         Thread.sleep(6000);
         driver.quit();
-
     }
 }

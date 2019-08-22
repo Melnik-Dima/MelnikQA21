@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.tests.SearchWikiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-20T07:54:48" hostname="MacBook-Pro-Dmitrij.local" time="29.45">
+<testsuite name="com.telran.tests.SearchWikiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-22T15:22:44" hostname="MBP-Dmitrij" time="27.678">
   <properties/>
-  <testcase name="setUp" classname="com.telran.tests.SearchWikiTest" time="29.45"/>
+  <testcase name="WikiSearch" classname="com.telran.tests.SearchWikiTest" time="27.678"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1566287692889	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fm/lk3w3jdd5p93p8_npt4tmw180000gn/T/rust_mozprofile.PccoksZtZp3V"
-1566287698536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1566287698536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1566287698537	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1566287698538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1566287702166	Marionette	INFO	Listening on port 51370
-1566287702264	Marionette	WARN	TLS certificate errors will be ignored for this session
-авг 20, 2019 10:55:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[1566487365046	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fm/lk3w3jdd5p93p8_npt4tmw180000gn/T/rust_mozprofile.q7RWWHD7d4z9"
+1566487366292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566487366292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566487366292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566487366292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566487369371	Marionette	INFO	Listening on port 61758
+1566487369456	Marionette	WARN	TLS certificate errors will be ignored for this session
+авг 22, 2019 6:22:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1566287715729	Marionette	INFO	Stopped listening on port 51370
+1566487388978	Marionette	INFO	Stopped listening on port 61758
 ]]></system-err>
 </testsuite>
