@@ -10,12 +10,15 @@ public class SearchWikiTest {
 
     WebDriver driver;
     @Test
-    public void setUp() throws InterruptedException {
+    public void WikiSearch() throws InterruptedException {
         driver = new FirefoxDriver();
         driver.get("https://en.wikipedia.org");
         driver.findElement(By.name("search")).click();
         driver.findElement(By.name("search")).clear();
         driver.findElement(By.name("search")).sendKeys("java");
+        driver.findElement(By.name("go")).click();
+
+
         Thread.sleep(6000);
         driver.quit();
 
