@@ -1,6 +1,7 @@
 package com.telran.selenium;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -23,5 +24,30 @@ public class TestBase {
     @AfterMethod
      public void tearDown () {
      driver.quit();
+    }
+    public void click(By locator) {
+        driver.findElement(locator).click();
+    }
+    public void type (By locator,String string) {
+        click(locator);
+        driver.findElement(locator).clear();
+        driver.findElement(locator).sendKeys(string);
+    }
+
+    public void openSite(String url) {
+        driver.get(url);
+    }
+
+    public void clickLoginButton() {
+        click(By.id("sgnBt"));
+    }
+
+    public void fillLoginForm(String email, String pwd) {
+        type(By.id("userid"), email);
+        type(By.id("pass"), pwd);
+    }
+
+    public void initLogin() {
+        click(By.id("gh-ug"));
     }
 }
