@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.tests.SearchWikiTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-29T10:26:34" hostname="MacBook-Pro-Dmitrij.local" time="9.568">
+<testsuite name="com.telran.tests.SearchWikiTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-16T11:05:40" hostname="MacBook-Pro-Dmitrij.local" time="3.888">
   <properties/>
-  <testcase name="WikiSearchJava" classname="com.telran.tests.SearchWikiTest" time="5.221"/>
-  <testcase name="WikiSearchQA" classname="com.telran.tests.SearchWikiTest" time="4.341"/>
+  <testcase name="WikiSearchQA" classname="com.telran.tests.SearchWikiTest" time="1.603"/>
+  <testcase name="WikiSearchJava" classname="com.telran.tests.SearchWikiTest" time="2.284"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1567074389335	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fm/lk3w3jdd5p93p8_npt4tmw180000gn/T/rust_mozprofile.9fGTd9bFtRFd"
-1567074390321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1567074390322	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1567074390322	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1567074390322	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1567074393073	Marionette	INFO	Listening on port 56217
-1567074393175	Marionette	WARN	TLS certificate errors will be ignored for this session
-авг 29, 2019 1:26:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>
