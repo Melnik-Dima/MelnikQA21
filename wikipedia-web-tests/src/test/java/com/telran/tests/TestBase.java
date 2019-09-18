@@ -1,5 +1,6 @@
 package com.telran.tests;
 
+import com.telran.fw.ApplicationManager;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 

@@ -7,17 +7,17 @@ public class SearchWikiTest extends TestBase {
 
     @Test (priority = 2)
     public void WikiSearchJava() {
-        app.typeRequest("java");
-        app.clickGoButton();
+        app.getArticle().typeRequest("java");
+        app.getArticle().clickGoButton();
         //Thread.sleep(3000);
-        Assert.assertEquals(app.getArticleTitle().toLowerCase(),"java".toLowerCase());
+        Assert.assertEquals(app.getArticle().getArticleTitle().toLowerCase(), "java".toLowerCase());
     }
     @Test (priority=1)
     public void WikiSearchQA() {
-        app.typeRequest("QA");
-        app.clickGoButton();
+        app.getArticle().typeRequest("QA");
+        app.getArticle().clickGoButton();
         //Thread.sleep(3000);
-        Assert.assertEquals(app.getArticleTitle().toLowerCase(),"QA".toLowerCase());
+        Assert.assertEquals(app.getArticle().getArticleTitle().toLowerCase(), "QA".toLowerCase());
     }
 
 }
