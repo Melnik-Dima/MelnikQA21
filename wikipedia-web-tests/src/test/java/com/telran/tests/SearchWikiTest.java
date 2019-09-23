@@ -5,15 +5,19 @@ import org.testng.annotations.Test;
 
 public class SearchWikiTest extends TestBase {
 
-    @Test (priority = 2)
-    public void WikiSearchJava() {
+
+    @Test
+    public void WikiSearchJava() throws InterruptedException {
+        Thread.sleep(3000);
         app.getArticle().typeRequest("java");
         app.getArticle().clickGoButton();
         //Thread.sleep(3000);
         Assert.assertEquals(app.getArticle().getArticleTitle().toLowerCase(), "java".toLowerCase());
     }
-    @Test (priority=1)
-    public void WikiSearchQA() {
+
+    @Test
+    public void WikiSearchQA() throws InterruptedException {
+        Thread.sleep(3000);
         app.getArticle().typeRequest("QA");
         app.getArticle().clickGoButton();
         //Thread.sleep(3000);
