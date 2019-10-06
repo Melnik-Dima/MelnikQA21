@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Regression" verbose="1" >
-    <test name="RegressionWiki" >
+    <test name="Regression_wiki" >
         <classes>
-            <class name="com.telran.tests.LoginWikiTest"/>
+            <class name="com.telran.tests.LoginWikiTest" />
         </classes>
     </test>
 

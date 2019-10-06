@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.tests.LoginWikiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-20T13:22:47" hostname="MacBook-Pro-Dmitrij.local" time="8.414">
+<testsuite name="com.telran.tests.LoginWikiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-06T09:42:11" hostname="MacBook-Pro-Dmitrij.local" time="8.238">
   <properties/>
-  <testcase name="loginTest" classname="com.telran.tests.LoginWikiTest" time="8.414"/>
+  <testcase name="loginTest" classname="com.telran.tests.LoginWikiTest" time="8.238"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
