@@ -24,14 +24,22 @@ task wikiLoginTest(type: Test) {
         systemProperty 'browser', "${browser}"
     }
 }
-
-
-test {
+task wikiSearchTest(type: Test) {
     useTestNG {
-        suites 'src/test/resources/testng.xml'
+        suites 'src/test/resources/wikiSearch.xml'
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
     }
 
+
+    test {
+        useTestNG {
+            suites 'src/test/resources/testng.xml'
+        }
+        if (project.hasProperty('browser')) {
+            systemProperty 'browser', "${browser}"
+        }
+
+    }
 }
