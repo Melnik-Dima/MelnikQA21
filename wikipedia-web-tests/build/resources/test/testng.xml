@@ -4,6 +4,7 @@
     <test name="RegressionWiki" >
         <classes>
             <class name="com.telran.tests.LoginWikiTest"/>
+           
         </classes>
     </test>
 

@@ -11,11 +11,12 @@ public class SearchWikiTest extends TestBase {
         app.getArticle().typeRequest("java");
         app.getArticle().clickGoButton();
         Assert.assertEquals(app.getArticle().getArticleTitle().toLowerCase(), "java".toLowerCase());
-        //pause
+
     }
 
     @Test(priority = 1)
-    public void searchWikiTestQA() {
+    public void searchWikiTestQA() throws InterruptedException {
+        Thread.sleep(10000);
         app.getArticle().typeRequest("QA");
         app.getArticle().clickGoButton();
         Assert.assertEquals(app.getArticle().getArticleTitle().toLowerCase(), "QA".toLowerCase());
